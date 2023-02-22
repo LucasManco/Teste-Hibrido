@@ -1,0 +1,14 @@
+{
+    "store.custom#teste": {
+        "children": [
+            "rich-text#success-submit"
+          ]
+    },
+    "rich-text#success-submit": {
+        "props": {
+          "text": "Thanks for reaching out! We will come back shortly.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }
+}

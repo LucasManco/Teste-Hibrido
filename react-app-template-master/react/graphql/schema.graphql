@@ -1,0 +1,18 @@
+query getDocuments {
+  documents(
+    acronym: "LS"
+    fields: [
+      "clientCity"
+      "clientName"
+      "clientPhoto"
+      "date"
+      "testmony"
+      "image"
+    ]
+  ) {
+    fields {
+      key
+      value
+    }
+  }
+}

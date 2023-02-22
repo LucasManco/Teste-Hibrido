@@ -1,0 +1,8 @@
+{
+    "teste-hibrido-lucas-souza": {
+        "component": "HelloWorld"
+    },
+    "teste-hibrido-lucas-souza-testimony": {
+      "component": "TestimonyWrapper"
+    }
+}

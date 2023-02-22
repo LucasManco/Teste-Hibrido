@@ -1,0 +1,35 @@
+{
+  "vendor": "hibrido",
+  "name": "lucas-souza-testimony",
+  "version": "0.0.2",
+  "title": "Teste Hibrido Lucas Souza",
+  "description": "Teste realizado para a vaga de Desenvolvedor Vtex",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.css-handles": "1.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
