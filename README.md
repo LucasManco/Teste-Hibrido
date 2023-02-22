@@ -1,6 +1,10 @@
 # Teste-Hibrido
 
-Teste aplicado na url:https://testelucassouza--hibrido.myvtex.com/
+No repositiorio encontramos duas pastas:
+- react-app-template-master: onde foi desenvolvido o app de Testimony
+- store-theme-master: layout do site, onde foir importado o app
+
+O resultado do desafio pode ser visualizado na url:https://testelucassouza--hibrido.myvtex.com/
 
 Layout feito tentando ao maximo se aproximar da referencia dada algumas adaptações, como a alteração das informações do card de depoimento e adição das setas laterais para navegação.
 ![image](https://user-images.githubusercontent.com/24292951/220543152-489ded5e-b4ee-42b6-8a97-c8328464e424.png)
@@ -29,9 +33,6 @@ query getDocuments {
   }
 }
 ```
-No repositiorio encontramos duas pastas:
-- react-app-template-master: onde foi desenvolvido o app de Testimony
-- store-theme-master: layout do site, onde foir importado o app
 
 ```
 Obs.: Durante o desenvolvimento enfrentei alguns erros ao tentar aplicar o CSS_HANDLES que me impediram de aplica-lo no app. 
