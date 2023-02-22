@@ -34,8 +34,8 @@ query getDocuments {
 }
 ```
 
-```
+
 Obs.: Durante o desenvolvimento enfrentei alguns erros ao tentar aplicar o CSS_HANDLES que me impediram de aplica-lo no app. 
 Por isso as classes usadas no desenvolvimento não estão sendo geradas pela biblioteca e sim inseridas hardcoded. 
 Gostaria de ter conseguido corrigir este ponto mas infelizmente não tive tempo.
-```
+
